@@ -5,7 +5,7 @@ import "reflect-metadata";
 import router from "./router";
 
 const app = new Koa();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 4000;
 
 app.use(helmet());
 

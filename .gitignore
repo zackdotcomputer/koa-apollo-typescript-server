@@ -1,3 +1,6 @@
+# Codegen'd files
+src/generated
+
 # Logs
 logs
 *.log
