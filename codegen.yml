@@ -1,14 +1,14 @@
 overwrite: true
 schema: ./schema/**/*.gql
 generates:
-  src/generated/graphql.ts:
+  generated/graphql.ts:
     config:
       useIndexSignature: true
     plugins:
       - "typescript"
       - "typescript-operations"
       - "typescript-resolvers"
-  src/generated/schemaTypedef.ts:
+  generated/schemaTypedef.ts:
     plugins:
       - "add":
           "content": 'import { gql } from "apollo-server-koa";

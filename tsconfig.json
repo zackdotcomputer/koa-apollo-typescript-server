@@ -11,5 +11,5 @@
     "typeRoots": ["node_modules/@types", "src/@types"]
   },
   "files": ["src/@types/graphql.d.ts"],
-  "include": ["./src/**/*"]
+  "include": ["./src/**/*", "./generated/**/*"]
 }

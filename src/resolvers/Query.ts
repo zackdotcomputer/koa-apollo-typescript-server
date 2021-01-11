@@ -1,9 +1,11 @@
-import { QueryResolvers } from "../generated/graphql";
+import { QueryResolvers } from "../../generated/graphql";
 
-export const QueryResolver: QueryResolvers = {
+const QueryResolver: QueryResolvers = {
   hello: () => {
     return {
       message: "Hello world"
     };
   }
 };
+
+export default QueryResolver;

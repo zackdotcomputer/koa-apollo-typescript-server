@@ -1,6 +1,6 @@
-import { ApolloServer, gql } from "apollo-server-koa";
+import { ApolloServer } from "apollo-server-koa";
 import resolvers from "./resolvers";
-import { typeDefs } from "./generated/schemaTypedef";
+import { typeDefs } from "../generated/schemaTypedef";
 
 const router = new ApolloServer({
   resolvers,
