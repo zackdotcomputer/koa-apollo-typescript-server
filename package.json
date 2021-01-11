@@ -17,7 +17,8 @@
     "graphql": "^15.4.0",
     "koa": "^2.13.1",
     "koa-helmet": "^6.0.0",
-    "reflect-metadata": "^0.1.13"
+    "reflect-metadata": "^0.1.13",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "@graphql-codegen/add": "^2.0.2",
