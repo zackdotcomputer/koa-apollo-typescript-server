@@ -1,5 +1,6 @@
 import * as Koa from "koa";
 import "reflect-metadata";
+import isProduction from "./isProduction";
 import logger from "./logger";
 
 import router from "./router";
@@ -13,4 +14,7 @@ router.applyMiddleware({ app, cors: {}, bodyParserConfig: {} });
 
 app.listen(port, () => {
   logger.info(`🚀 Server listening on the port ${port}`);
+  if (!isProduction) {
+    logger.info(`View the playground at http://localhost:${port}/graphql`);
+  }
 });
