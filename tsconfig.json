@@ -1,0 +1,13 @@
+{
+  "version": "2.0.2",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "lib": ["es2020"],
+    "module": "commonjs",
+    "target": "es2019",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  },
+  "include": ["./src/**/*"]
+}
